@@ -1,0 +1,25 @@
+2026-02-13 08:30:38,860 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.0.0.5:8081
+2026-02-13 08:30:38,860 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-02-13 08:30:38,872 INFO werkzeug  * Restarting with stat
+2026-02-13 08:30:39,493 WARNING werkzeug  * Debugger is active!
+2026-02-13 08:30:39,501 INFO werkzeug  * Debugger PIN: 132-545-371
+2026-02-13 08:38:53,682 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://172.0.0.5:8081
+2026-02-13 08:38:53,697 INFO werkzeug [33mPress CTRL+C to quit[0m
+2026-02-13 08:38:53,702 INFO werkzeug  * Restarting with stat
+2026-02-13 08:38:54,264 WARNING werkzeug  * Debugger is active!
+2026-02-13 08:38:54,269 INFO werkzeug  * Debugger PIN: 132-545-371
+2026-02-13 08:39:13,449 INFO werkzeug 127.0.0.1 - - [13/Feb/2026 08:39:13] "GET / HTTP/1.1" 200 -
+2026-02-13 08:39:13,513 INFO werkzeug 127.0.0.1 - - [13/Feb/2026 08:39:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-13 08:39:22,736 INFO werkzeug 127.0.0.1 - - [13/Feb/2026 08:39:22] "GET /v1/health HTTP/1.1" 200 -
+2026-02-13 08:43:30,325 INFO werkzeug 127.0.0.1 - - [13/Feb/2026 08:43:30] "[31m[1mPOST /v1/scheduler/schedule HTTP/1.1[0m" 400 -
+2026-02-13 09:41:17,431 INFO werkzeug 127.0.0.1 - - [13/Feb/2026 09:41:17] "GET / HTTP/1.1" 200 -
+2026-02-13 09:41:21,334 INFO werkzeug 127.0.0.1 - - [13/Feb/2026 09:41:21] "GET /v1/health HTTP/1.1" 200 -
+2026-02-13 09:41:51,492 INFO scheduler_agent {'event': 'schedule_received', 'correlation_id': 'demo-req-123', 'customer_id': 'CUST-9001', 'line_count': 2}
+2026-02-13 09:41:51,492 INFO scheduler_agent {'event': 'schedule_planned', 'correlation_id': 'demo-req-123', 'summary': {'lines': 2, 'status': 'success'}}
+2026-02-13 09:41:51,493 INFO werkzeug 127.0.0.1 - - [13/Feb/2026 09:41:51] "POST /v1/scheduler/schedule HTTP/1.1" 200 -
