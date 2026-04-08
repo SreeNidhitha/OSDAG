@@ -1,0 +1,13 @@
+[{
+  "version": 1.0,
+  "handlerManifest": {
+    "installCommand": "MdeExtensionHandlerWrapper.cmd install", 
+    "uninstallCommand": "MdeExtensionHandlerWrapper.cmd uninstall", 
+    "updateCommand": "MdeExtensionHandlerWrapper.cmd update", 
+    "enableCommand": "MdeExtensionHandlerWrapper.cmd enable", 
+    "disableCommand": "MdeExtensionHandlerWrapper.cmd disable", 
+    "resetStateCommand": "MdeExtensionHandlerWrapper.cmd reset", 
+    "rebootAfterInstall": false,
+    "reportHeartbeat": false
+  }
+}]
