@@ -1,0 +1,6 @@
+{
+  "plant": "1000",
+  "pick_pack_sla_hours": 8,
+  "dock_capacity_per_day": 1800,
+  "policy": "Schedule on/after earliest_available_date; avoid carrier holidays; respect daily cutoff; ensure delivery <= customer end date"
+}

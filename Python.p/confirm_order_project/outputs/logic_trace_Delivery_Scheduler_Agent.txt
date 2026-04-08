@@ -1,0 +1,5 @@
+Logic Applied:
+- End of preferred delivery window is set to customer_expected_delivery_date (2025-12-11).
+- Route fixed as IN-BLR>IN-DEL to match destination.
+- Transit days read from transit_time_matrix_sample_01.csv (carrier=Delhivery).
+- Select ship date such that (ship + transit_days) <= end and skip carrier holidays.

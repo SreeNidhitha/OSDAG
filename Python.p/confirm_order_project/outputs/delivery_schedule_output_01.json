@@ -1,0 +1,62 @@
+{
+  "business_rule": "Delivery must be <= customer provided end date; avoid holidays; match destination route",
+  "data": [
+    {
+      "order_id": "SO-2025-0004",
+      "customer_id": "CUST-400099",
+      "line_id": "001",
+      "MATNR": "MAT-3001",
+      "route": "IN-BLR>IN-DEL",
+      "scheduled_ship_date": "2025-12-09",
+      "estimated_delivery_date": "2025-12-11",
+      "carrier": "Delhivery",
+      "validation_status": "pass",
+      "compliance_flags": {
+        "window_end_respected": "pass",
+        "holiday_considered": "pass"
+      },
+      "calculation_logic": "Choose ship date so that (ship + transit_days) <= customer_end_date and avoid carrier holidays",
+      "timestamp": "2025-12-02T13:15:58.979603",
+      "agent_id": "Delivery_Scheduler_Agent",
+      "workflow_step": "Scheduling"
+    },
+    {
+      "order_id": "SO-2025-0004",
+      "customer_id": "CUST-400099",
+      "line_id": "002",
+      "MATNR": "MAT-3002",
+      "route": "IN-BLR>IN-DEL",
+      "scheduled_ship_date": "2025-12-09",
+      "estimated_delivery_date": "2025-12-11",
+      "carrier": "Delhivery",
+      "validation_status": "pass",
+      "compliance_flags": {
+        "window_end_respected": "pass",
+        "holiday_considered": "pass"
+      },
+      "calculation_logic": "Choose ship date so that (ship + transit_days) <= customer_end_date and avoid carrier holidays",
+      "timestamp": "2025-12-02T13:15:58.979632",
+      "agent_id": "Delivery_Scheduler_Agent",
+      "workflow_step": "Scheduling"
+    },
+    {
+      "order_id": "SO-2025-0004",
+      "customer_id": "CUST-400099",
+      "line_id": "003",
+      "MATNR": "MAT-3003",
+      "route": "IN-BLR>IN-DEL",
+      "scheduled_ship_date": "2025-12-09",
+      "estimated_delivery_date": "2025-12-11",
+      "carrier": "Delhivery",
+      "validation_status": "pass",
+      "compliance_flags": {
+        "window_end_respected": "pass",
+        "holiday_considered": "pass"
+      },
+      "calculation_logic": "Choose ship date so that (ship + transit_days) <= customer_end_date and avoid carrier holidays",
+      "timestamp": "2025-12-02T13:15:58.979650",
+      "agent_id": "Delivery_Scheduler_Agent",
+      "workflow_step": "Scheduling"
+    }
+  ]
+}

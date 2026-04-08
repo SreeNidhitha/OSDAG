@@ -1,0 +1,98 @@
+{
+  "link": "../ATP_Checker_Agent/Outputs/atp_results_output_01.json",
+  "data": [
+    {
+      "order_id": "SO-2025-0004",
+      "customer_id": "CUST-400099",
+      "line_id": "001",
+      "MATNR": "MAT-3001",
+      "requested_ship_date": "2025-12-08",
+      "customer_promised_ship_date": "2025-12-08",
+      "customer_expected_delivery_date": "2025-12-11",
+      "earliest_available_date": "2025-12-08",
+      "quantity_available": 3824,
+      "ordered_quantity": 55,
+      "validation_status": "pass",
+      "accuracy_score": 0.98,
+      "reasoning": [
+        {
+          "rule": "available_qty = LABST_avg + inbound_next15d - safety_stock",
+          "values": {
+            "LABST_avg": 1237,
+            "inbound_next15d": 2719,
+            "safety_stock": 132
+          }
+        },
+        {
+          "decision": "Sufficient stock",
+          "detail": "available_qty >= ordered qty"
+        }
+      ],
+      "timestamp": "2025-12-02T13:15:58.977409",
+      "agent_id": "ATP_Checker_Agent",
+      "workflow_step": "ATP"
+    },
+    {
+      "order_id": "SO-2025-0004",
+      "customer_id": "CUST-400099",
+      "line_id": "002",
+      "MATNR": "MAT-3002",
+      "requested_ship_date": "2025-12-08",
+      "customer_promised_ship_date": "2025-12-08",
+      "customer_expected_delivery_date": "2025-12-11",
+      "earliest_available_date": "2025-12-08",
+      "quantity_available": 3135,
+      "ordered_quantity": 65,
+      "validation_status": "pass",
+      "accuracy_score": 0.98,
+      "reasoning": [
+        {
+          "rule": "available_qty = LABST_avg + inbound_next15d - safety_stock",
+          "values": {
+            "LABST_avg": 1322,
+            "inbound_next15d": 1920,
+            "safety_stock": 107
+          }
+        },
+        {
+          "decision": "Sufficient stock",
+          "detail": "available_qty >= ordered qty"
+        }
+      ],
+      "timestamp": "2025-12-02T13:15:58.977443",
+      "agent_id": "ATP_Checker_Agent",
+      "workflow_step": "ATP"
+    },
+    {
+      "order_id": "SO-2025-0004",
+      "customer_id": "CUST-400099",
+      "line_id": "003",
+      "MATNR": "MAT-3003",
+      "requested_ship_date": "2025-12-08",
+      "customer_promised_ship_date": "2025-12-08",
+      "customer_expected_delivery_date": "2025-12-11",
+      "earliest_available_date": "2025-12-08",
+      "quantity_available": 3490,
+      "ordered_quantity": 75,
+      "validation_status": "pass",
+      "accuracy_score": 0.98,
+      "reasoning": [
+        {
+          "rule": "available_qty = LABST_avg + inbound_next15d - safety_stock",
+          "values": {
+            "LABST_avg": 1137,
+            "inbound_next15d": 2469,
+            "safety_stock": 116
+          }
+        },
+        {
+          "decision": "Sufficient stock",
+          "detail": "available_qty >= ordered qty"
+        }
+      ],
+      "timestamp": "2025-12-02T13:15:58.977459",
+      "agent_id": "ATP_Checker_Agent",
+      "workflow_step": "ATP"
+    }
+  ]
+}

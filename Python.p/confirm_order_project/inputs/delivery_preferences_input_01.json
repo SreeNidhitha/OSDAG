@@ -1,0 +1,16 @@
+{
+  "order_id": "SO-2025-0004",
+  "customer_id": "CUST-400099",
+  "preferred_delivery_window": {
+    "start": "2025-12-09",
+    "end": "2025-12-11"
+  },
+  "delivery_address": {
+    "ship_to_party": "CUST-400099",
+    "city": "New Delhi",
+    "region": "DL",
+    "country": "IN",
+    "postal_code": "110001"
+  },
+  "incoterms": "DAP"
+}
